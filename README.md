@@ -16,6 +16,8 @@ First, a Years column was created using the [YEAR() function](https://support.mi
 
 ### Analysis of Outcomes Based on Goals
 
+A new sheet was created with the eight headers: Goal; Number Successful, Failed, and Canceled; Total Projects; and Percentage Successful, Failed, and Canceled. There were twelve ranges for the Goal column starting from less than 1000, and going up to greater than 50000. The Number Successful, Failed, and Canceled were each calculated using the [COUNTIFS() function](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842) filtered on the corresponding "outcome" and "goal", as well as on the subcategory "plays". All three were summed up for each row in the Total Projects column, which was then used to calculate the percentage of each. Finally, a line chart was created with Goal on the x-axis, and the Percentage of each Outcome on the y-axis, as shown in the image below. 
+
 ![Outcomes vs Goals](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
