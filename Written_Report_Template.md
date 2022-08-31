@@ -4,6 +4,8 @@
 
 ### Purpose
 
+Analyzing Kickstarter data to uncover the trends of successful campaigns in order to help Louise plan her campaign. 
+
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
