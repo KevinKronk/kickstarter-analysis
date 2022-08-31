@@ -10,7 +10,7 @@ We are analyzing kickstarter data to uncover the trends of successful campaigns 
 
 ### Analysis of Outcomes Based on Launch Date
 
-First, a Years column was created using the [YEAR() function](https://support.microsoft.com/en-us/office/year-function-c64f017a-1354-490d-981f-578e8ec8d3b9) on the Date Created Conversion column. A pivot table was then created with Date Created Conversion for rows, outcomes for columns, count of outcomes for values, and Parent category and Years for the filters. The rows were made sure to be each month, columns were filtered to only include "successful", "failed", and "canceled" in that order, and the Parent category filter was set to theater. With that, a Pivot Chart was created as a line chart with markers, and a chart title was added, all of which can be seen in the image below. 
+First, a Years column was created using the [YEAR() function](https://support.microsoft.com/en-us/office/year-function-c64f017a-1354-490d-981f-578e8ec8d3b9) on the Date Created Conversion column. A pivot table was then created with Date Created Conversion for rows, outcomes for columns, count of outcomes for values, and Parent category and Years for the filters. The rows were made sure to be each month, columns were filtered to only include "successful", "failed", and "canceled" in that order, and the Parent category filter was set to theater. With that, a pivot chart was created as a line chart with markers, and a chart title was added, all of which can be seen in the image below. 
 
 ![Theater Outcomes vs Launch](resources/Theater_Outcomes_vs_Launch.png)
 
@@ -22,7 +22,7 @@ A new sheet was created with the eight headers: Goal; Number Successful, Failed,
 
 ### Challenges and Difficulties Encountered
 
-One potential challenge for the Theater Outcomes Based on Launch Date Pivot Chart was making sure that the rows only included the Date Created Conversion as months, and any additional Excel generated values were removed. For the Outcomes Based on Goal, it was critical to double check every COUNTIFS() statement, making sure that the filters for the "goal" were getting the correct range by using the greater than and less than signs in the right places. It also helped to sum up all the rows for each "outcome" and make sure that it was equal to the total number of kickstarters with that "outcome". Finally, I had to change the Percentage columns data types to Percentage (I kept it with two numbers after the decimal), and then change Axis Options Number category for the percentages shown in the y-axis to show 0 decimal places. 
+One potential challenge for the Theater Outcomes Based on Launch Date pivot chart was making sure that the rows only included the Date Created Conversion as months, and any additional Excel generated values were removed. For the Outcomes Based on Goal, it was critical to double check every COUNTIFS() statement, making sure that the filters for the "goal" were getting the correct range by using the greater than and less than signs in the right places. It also helped to sum up all the rows for each "outcome" and make sure that it was equal to the total number of kickstarters with that "outcome". Finally, I had to change the Percentage columns data types to Percentage (I kept it with two numbers after the decimal), and then change Axis Options Number category for the percentages shown in the y-axis to show 0 decimal places. 
 
 ## Results
 
