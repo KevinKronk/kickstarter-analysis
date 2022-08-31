@@ -28,8 +28,16 @@ One potential challenge for the Theater Outcomes Based on Launch Date pivot char
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
+May, June, and even July appear to be the best months to launch a theater kickstarter, since there are far more successful than failed campaigns. December, November, and October appear to be the worst months because the number of successful and failed campaigns are much closer. 
+
 - What can you conclude about the Outcomes based on Goals?
+
+In general, it seems that smaller goals (less than $15000) are more likely to succeed and larger goals (more than $20000) are more likely to fail. Goals from $35000 to $44999 were actually more likely to succeed, but this may be due to only have 9 total data points in that range, which may not be representative of the population.
 
 - What are some limitations of this dataset?
 
+In the Theater Outcomes Based on Launch Date data, there isn't much we can say about canceled outcomes as there are too few to judge and we are also missing an entry for October, which would likely need to be filled in as 0. In the Outcomes Based on Goal data we have fairly small sample sizes for the mid to large goal ranges. This means we may not have enough data to accurately understand the population and make future predictions. Another potential issue I found in the dataset is that different countries use different currencies, so unless the goal and pledged amounts were already adjusted to US dollars, then we would not be able to make proper comparisons between these projects without a conversion. Finally, in some of the earlier analyses it appeared that there were outliers in the data. These would need to be checked for possible errors, or taken into account when performing other analyses. 
+
 - What are some other possible tables and/or graphs that we could create?
+
+We could calculate the number of days the campaigns were active for and create a table of descriptive statistics for each outcome, as well as histograms for each. Box and Whisker plots could also be made to compare Percentage Funded with staff picks (whether true or false), or spotlight (whether true or false). 
