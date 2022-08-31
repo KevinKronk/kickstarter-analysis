@@ -10,7 +10,7 @@ We are analyzing kickstarter data to uncover the trends of successful campaigns 
 
 ### Analysis of Outcomes Based on Launch Date
 
-First, a Years column was created using the ![YEAR() function](https://support.microsoft.com/en-us/office/year-function-c64f017a-1354-490d-981f-578e8ec8d3b9) on the Date Created Conversion column.
+First, a Years column was created using the [YEAR() function](https://support.microsoft.com/en-us/office/year-function-c64f017a-1354-490d-981f-578e8ec8d3b9) on the Date Created Conversion column.
 
 ![Theater Outcomes vs Launch](resources/Theater_Outcomes_vs_Launch.png)
 
